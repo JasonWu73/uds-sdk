@@ -1,0 +1,40 @@
+<assembly>
+  <id>bundle</id>
+
+  <formats>
+    <format>tar.gz</format>
+  </formats>
+
+  <fileSets>
+    <fileSet>
+      <outputDirectory>.</outputDirectory>
+      <includes>
+        <include>pom.xml</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <directory>src/docs</directory>
+      <outputDirectory>.</outputDirectory>
+      <includes>
+        <include>跨语言微服务_Java_SDK.pdf</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <directory>target</directory>
+      <outputDirectory>.</outputDirectory>
+      <includes>
+        <include>uds-sdk-*.jar</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <directory>target/lib</directory>
+      <outputDirectory>lib</outputDirectory>
+      <includes>
+        <include>*.jar</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</assembly>
