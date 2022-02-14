@@ -11,7 +11,7 @@
 
 ## SDK 流程图
 
-![](http://192.168.1.155/wuxianjie/uds-sdk/-/raw/master/src/docs/java_uds_sdk.jpg)
+![](https://github.com/JasonWu73/uds-sdk/blob/main/src/docs/java_uds_sdk.jpg?raw=true)
 
 ## JDK 版本
 
